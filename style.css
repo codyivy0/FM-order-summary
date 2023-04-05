@@ -69,7 +69,7 @@ section h1 {
 }
 
 .plans img {
-    height: 50;
+    height: 50px;
     width: 50px;
 }
 
@@ -113,12 +113,10 @@ section h1 {
 }
 
 .cancel {
-    appearance: none;
     background-color: hsl(225, 100%, 98%);
     border: none;
     color: hsl(224, 23%, 55%);
     font-weight: 800;
-    padding: 10px 20px;
 }
 
 .cancel:active {
