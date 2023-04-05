@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    background: url('./images/pattern-background-desktop.svg') no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: contain;
+    color: hsl(224, 23%, 55%);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    border-radius: 20px;
+    width: 325px;
+    overflow: hidden;
+    background-color: hsl(225, 100%, 98%);
+    box-shadow: 0px 10px 10px 0px rgba(114, 128, 167, 0.25);
+}
+
+.imageTop img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.info {
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 2rem 1.4rem;
+}
+
+section h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 800;
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    gap: 15px;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: hsla(225, 100%, 94%, 0.3);
+}
+
+.plans img {
+    height: 50;
+    width: 50px;
+}
+
+.plans a {
+    margin-left: auto;
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.plans a:active {
+    color: hsl(245, 75%, 70%);
+    text-decoration: none;
+}
+
+.prices {
+    text-align: left;
+}
+
+.prices strong {
+    color: hsl(223, 47%, 23%);
+    font-weight: 800;
+}
+
+.proceed {
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    height: 2.5rem;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px rgba(114, 128, 167, 0.25);
+    font-weight: 800;
+}
+
+.proceed:active {
+    background-color: hsl(245, 75%, 70%);
+}
+
+.proceed:hover {
+    cursor: pointer;
+}
+
+.cancel {
+    appearance: none;
+    background-color: hsl(225, 100%, 98%);
+    border: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 800;
+    padding: 10px 20px;
+}
+
+.cancel:active {
+    color: hsl(223, 47%, 23%);
+}
+
+.cancel:hover {
+    cursor: pointer;
+}
